@@ -1,0 +1,23 @@
+backend-streaming/
+│
+├── src/
+│   ├── controllers/
+│   │   └── userController.js
+│   │   └── channelController.js
+│   │   └── iptvListController.js
+│   ├── models/
+│   │   └── user.js
+│   │   └── channel.js
+│   │   └── iptvList.js
+│   ├── routes/
+│   │   └── userRoutes.js
+│   │   └── channelRoutes.js
+│   │   └── iptvListRoutes.js
+│   ├── services/
+│   │   └── tmdbService.js
+│   ├── app.js
+│   └── database.js
+│
+├── .env
+├── package.json
+└── README.md
